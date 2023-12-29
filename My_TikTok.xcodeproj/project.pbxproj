@@ -51,8 +51,12 @@
 		8116BC4E2B3F243800F7C7EA /* My_TikTok */ = {
 			isa = PBXGroup;
 			children = (
-				8116BC4F2B3F243800F7C7EA /* My_TikTokApp.swift */,
-				8116BC512B3F243800F7C7EA /* ContentView.swift */,
+				8116BC622B3F26A500F7C7EA /* App */,
+				8116BC612B3F269C00F7C7EA /* Core */,
+				8116BC602B3F269900F7C7EA /* Extensions */,
+				8116BC5F2B3F269600F7C7EA /* Model */,
+				8116BC5E2B3F269200F7C7EA /* Services */,
+				8116BC5D2B3F268D00F7C7EA /* Utils */,
 				8116BC532B3F243900F7C7EA /* Assets.xcassets */,
 				8116BC552B3F243900F7C7EA /* Preview Content */,
 			);
@@ -65,6 +69,130 @@
 				8116BC562B3F243900F7C7EA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8116BC5D2B3F268D00F7C7EA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8116BC5E2B3F269200F7C7EA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8116BC5F2B3F269600F7C7EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8116BC602B3F269900F7C7EA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8116BC612B3F269C00F7C7EA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8116BC6C2B3F279500F7C7EA /* Authentication */,
+				8116BC6B2B3F279300F7C7EA /* Comments */,
+				8116BC6A2B3F279000F7C7EA /* Components */,
+				8116BC692B3F278E00F7C7EA /* Feed */,
+				8116BC682B3F278C00F7C7EA /* Notifications */,
+				8116BC672B3F278A00F7C7EA /* Profile */,
+				8116BC662B3F278700F7C7EA /* Root */,
+				8116BC652B3F278500F7C7EA /* Search */,
+				8116BC642B3F278200F7C7EA /* TabBar */,
+				8116BC632B3F277F00F7C7EA /* UploadMedia */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8116BC622B3F26A500F7C7EA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8116BC4F2B3F243800F7C7EA /* My_TikTokApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8116BC632B3F277F00F7C7EA /* UploadMedia */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadMedia;
+			sourceTree = "<group>";
+		};
+		8116BC642B3F278200F7C7EA /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		8116BC652B3F278500F7C7EA /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		8116BC662B3F278700F7C7EA /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				8116BC512B3F243800F7C7EA /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		8116BC672B3F278A00F7C7EA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8116BC682B3F278C00F7C7EA /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		8116BC692B3F278E00F7C7EA /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		8116BC6A2B3F279000F7C7EA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8116BC6B2B3F279300F7C7EA /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		8116BC6C2B3F279500F7C7EA /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
