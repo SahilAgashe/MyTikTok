@@ -11,6 +11,7 @@
 		8116BC522B3F243800F7C7EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8116BC512B3F243800F7C7EA /* ContentView.swift */; };
 		8116BC542B3F243900F7C7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8116BC532B3F243900F7C7EA /* Assets.xcassets */; };
 		8116BC572B3F243900F7C7EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8116BC562B3F243900F7C7EA /* Preview Assets.xcassets */; };
+		8116BC6E2B3F2A5700F7C7EA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8116BC6D2B3F2A5700F7C7EA /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8116BC512B3F243800F7C7EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8116BC532B3F243900F7C7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8116BC562B3F243900F7C7EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8116BC6D2B3F2A5700F7C7EA /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		8116BC642B3F278200F7C7EA /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				8116BC6D2B3F2A5700F7C7EA /* MainTabView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				8116BC522B3F243800F7C7EA /* ContentView.swift in Sources */,
 				8116BC502B3F243800F7C7EA /* My_TikTokApp.swift in Sources */,
+				8116BC6E2B3F2A5700F7C7EA /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
