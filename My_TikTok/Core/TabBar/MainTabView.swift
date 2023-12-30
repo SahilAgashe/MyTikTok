@@ -14,8 +14,7 @@ struct MainTabView: View {
     // MARK: - body
     var body: some View {
         TabView() {
-            // Home
-            Text("Feed")
+            FeedView()
                 .tabItem {
                     VStack {
                         Image(systemName: "house")
@@ -24,7 +23,6 @@ struct MainTabView: View {
                     }
                 }
                 .onAppear{selectedTab = 0}
-                .tag(0)
             
             Text("Friends")
                 .tabItem {
