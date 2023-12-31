@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8113E3BC2B40934200FA6ED5 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8113E3BB2B40934200FA6ED5 /* ExploreView.swift */; };
+		8113E3BE2B4093D500FA6ED5 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8113E3BD2B4093D500FA6ED5 /* UserCell.swift */; };
 		8116BC502B3F243800F7C7EA /* My_TikTokApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8116BC4F2B3F243800F7C7EA /* My_TikTokApp.swift */; };
 		8116BC522B3F243800F7C7EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8116BC512B3F243800F7C7EA /* ContentView.swift */; };
 		8116BC542B3F243900F7C7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8116BC532B3F243900F7C7EA /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8113E3BB2B40934200FA6ED5 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		8113E3BD2B4093D500FA6ED5 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		8116BC4C2B3F243800F7C7EA /* My_TikTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = My_TikTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8116BC4F2B3F243800F7C7EA /* My_TikTokApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_TikTokApp.swift; sourceTree = "<group>"; };
 		8116BC512B3F243800F7C7EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 		8116BC652B3F278500F7C7EA /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				8113E3BB2B40934200FA6ED5 /* ExploreView.swift */,
+				8113E3BD2B4093D500FA6ED5 /* UserCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -278,7 +284,9 @@
 				8116BC722B3F43D900F7C7EA /* FeedCell.swift in Sources */,
 				8116BC522B3F243800F7C7EA /* ContentView.swift in Sources */,
 				8116BC502B3F243800F7C7EA /* My_TikTokApp.swift in Sources */,
+				8113E3BC2B40934200FA6ED5 /* ExploreView.swift in Sources */,
 				8116BC6E2B3F2A5700F7C7EA /* MainTabView.swift in Sources */,
+				8113E3BE2B4093D500FA6ED5 /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

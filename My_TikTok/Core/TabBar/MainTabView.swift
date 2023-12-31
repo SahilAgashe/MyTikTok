@@ -24,12 +24,12 @@ struct MainTabView: View {
                 }
                 .onAppear{selectedTab = 0}
             
-            Text("Friends")
+            ExploreView()
                 .tabItem {
                     VStack {
                         Image(systemName: "person.2")
                             .environment(\.symbolVariants, selectedTab == 1 ? .fill : .none)
-                            Text("Home")
+                            Text("Friends")
                     }
                 }
                 .onAppear{selectedTab = 1}
@@ -46,7 +46,7 @@ struct MainTabView: View {
                     VStack {
                         Image(systemName: "heart")
                             .environment(\.symbolVariants, selectedTab == 3 ? .fill : .none)
-                        Text("Home")
+                        Text("Inbox")
                     }
                 }
                 .onAppear{selectedTab = 3}
@@ -56,7 +56,7 @@ struct MainTabView: View {
                     VStack {
                         Image(systemName: "person")
                             .environment(\.symbolVariants, selectedTab == 4 ? .fill : .none)
-                        Text("Home")
+                        Text("Profile")
                     }
                 }
                 .onAppear{selectedTab = 4}
