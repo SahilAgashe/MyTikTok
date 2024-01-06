@@ -16,6 +16,8 @@
 		8116BC6E2B3F2A5700F7C7EA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8116BC6D2B3F2A5700F7C7EA /* MainTabView.swift */; };
 		8116BC702B3F3A4200F7C7EA /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8116BC6F2B3F3A4200F7C7EA /* FeedView.swift */; };
 		8116BC722B3F43D900F7C7EA /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8116BC712B3F43D900F7C7EA /* FeedCell.swift */; };
+		81ABF3282B4972B40012F373 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ABF3272B4972B40012F373 /* Post.swift */; };
+		81ABF32D2B4974070012F373 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ABF32C2B4974070012F373 /* FeedViewModel.swift */; };
 		81ED8FBC2B41C8DF00839DAD /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED8FBB2B41C8DF00839DAD /* NotificationsView.swift */; };
 		81ED8FBE2B41C95D00839DAD /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED8FBD2B41C95D00839DAD /* NotificationCell.swift */; };
 		81ED8FC02B41D70300839DAD /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED8FBF2B41D70300839DAD /* CurrentUserProfileView.swift */; };
@@ -35,6 +37,8 @@
 		8116BC6D2B3F2A5700F7C7EA /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		8116BC6F2B3F3A4200F7C7EA /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		8116BC712B3F43D900F7C7EA /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		81ABF3272B4972B40012F373 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		81ABF32C2B4974070012F373 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		81ED8FBB2B41C8DF00839DAD /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		81ED8FBD2B41C95D00839DAD /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		81ED8FBF2B41D70300839DAD /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
@@ -110,6 +114,7 @@
 		8116BC5F2B3F269600F7C7EA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				81ABF3272B4972B40012F373 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -199,8 +204,9 @@
 		8116BC692B3F278E00F7C7EA /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				8116BC6F2B3F3A4200F7C7EA /* FeedView.swift */,
-				8116BC712B3F43D900F7C7EA /* FeedCell.swift */,
+				81ABF32B2B4973720012F373 /* Service */,
+				81ABF32A2B49736E0012F373 /* View */,
+				81ABF3292B4973660012F373 /* ViewModel */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -224,6 +230,30 @@
 			children = (
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		81ABF3292B4973660012F373 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				81ABF32C2B4974070012F373 /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		81ABF32A2B49736E0012F373 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8116BC6F2B3F3A4200F7C7EA /* FeedView.swift */,
+				8116BC712B3F43D900F7C7EA /* FeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		81ABF32B2B4973720012F373 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		81ED8FC32B41DD2500839DAD /* Components */ = {
@@ -319,6 +349,8 @@
 				81ED8FC22B41D88900839DAD /* ProfileHeaderView.swift in Sources */,
 				8116BC722B3F43D900F7C7EA /* FeedCell.swift in Sources */,
 				8116BC522B3F243800F7C7EA /* ContentView.swift in Sources */,
+				81ABF32D2B4974070012F373 /* FeedViewModel.swift in Sources */,
+				81ABF3282B4972B40012F373 /* Post.swift in Sources */,
 				8116BC502B3F243800F7C7EA /* My_TikTokApp.swift in Sources */,
 				81ED8FC82B41E72C00839DAD /* PostGridView.swift in Sources */,
 				8113E3BC2B40934200FA6ED5 /* ExploreView.swift in Sources */,
