@@ -18,6 +18,10 @@
 		8116BC722B3F43D900F7C7EA /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8116BC712B3F43D900F7C7EA /* FeedCell.swift */; };
 		81ED8FBC2B41C8DF00839DAD /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED8FBB2B41C8DF00839DAD /* NotificationsView.swift */; };
 		81ED8FBE2B41C95D00839DAD /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED8FBD2B41C95D00839DAD /* NotificationCell.swift */; };
+		81ED8FC02B41D70300839DAD /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED8FBF2B41D70300839DAD /* CurrentUserProfileView.swift */; };
+		81ED8FC22B41D88900839DAD /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED8FC12B41D88900839DAD /* ProfileHeaderView.swift */; };
+		81ED8FC62B41DD6C00839DAD /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED8FC52B41DD6C00839DAD /* UserStatView.swift */; };
+		81ED8FC82B41E72C00839DAD /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED8FC72B41E72C00839DAD /* PostGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		8116BC712B3F43D900F7C7EA /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		81ED8FBB2B41C8DF00839DAD /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		81ED8FBD2B41C95D00839DAD /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		81ED8FBF2B41D70300839DAD /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		81ED8FC12B41D88900839DAD /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		81ED8FC52B41DD6C00839DAD /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
+		81ED8FC72B41E72C00839DAD /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +181,8 @@
 		8116BC672B3F278A00F7C7EA /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				81ED8FC42B41DD4E00839DAD /* View */,
+				81ED8FC32B41DD2500839DAD /* Components */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -214,6 +224,24 @@
 			children = (
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		81ED8FC32B41DD2500839DAD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				81ED8FC12B41D88900839DAD /* ProfileHeaderView.swift */,
+				81ED8FC52B41DD6C00839DAD /* UserStatView.swift */,
+				81ED8FC72B41E72C00839DAD /* PostGridView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		81ED8FC42B41DD4E00839DAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81ED8FBF2B41D70300839DAD /* CurrentUserProfileView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,13 +316,17 @@
 			files = (
 				8116BC702B3F3A4200F7C7EA /* FeedView.swift in Sources */,
 				81ED8FBE2B41C95D00839DAD /* NotificationCell.swift in Sources */,
+				81ED8FC22B41D88900839DAD /* ProfileHeaderView.swift in Sources */,
 				8116BC722B3F43D900F7C7EA /* FeedCell.swift in Sources */,
 				8116BC522B3F243800F7C7EA /* ContentView.swift in Sources */,
 				8116BC502B3F243800F7C7EA /* My_TikTokApp.swift in Sources */,
+				81ED8FC82B41E72C00839DAD /* PostGridView.swift in Sources */,
 				8113E3BC2B40934200FA6ED5 /* ExploreView.swift in Sources */,
 				8116BC6E2B3F2A5700F7C7EA /* MainTabView.swift in Sources */,
+				81ED8FC02B41D70300839DAD /* CurrentUserProfileView.swift in Sources */,
 				8113E3BE2B4093D500FA6ED5 /* UserCell.swift in Sources */,
 				81ED8FBC2B41C8DF00839DAD /* NotificationsView.swift in Sources */,
+				81ED8FC62B41DD6C00839DAD /* UserStatView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
